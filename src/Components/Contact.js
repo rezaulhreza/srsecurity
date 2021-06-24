@@ -43,7 +43,7 @@ class Contact extends Component {
                     <label className='Contact-form__label' for='contact'>Message</label>
                     <input autoComplete='off' type='text' id='contact' name='contact' className='Contact-form__input' required />
                     {status === "SUCCESS" ? <p className='formsubmit__msg'>Thanks!</p> : <button type='submit' className='Contact-form__submit'>SUBMIT</button>}
-                    {status === "ERROR" && <p className='formsubmit__msg'>Ooops! There was an error.</p>}
+                    {status === "ERROR" && <p className='formsubmit__msg'>Oops! There was an error.</p>}
                 </form>
             </div>
         )
